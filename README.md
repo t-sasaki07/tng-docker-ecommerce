@@ -37,7 +37,7 @@ Read this [Wiki](https://github.com/ucan-lab/docker-laravel/wiki).
 ### app container
 
 - Base image
-  - [php](https://hub.docker.com/_/php):8.0-fpm-buster
+  - [php](https://hub.docker.com/_/php):7.4-fpm-buster
   - [composer](https://hub.docker.com/_/composer):2.0
 
 ### web container
@@ -59,4 +59,4 @@ If you want to delete MySQL data intentionally, execute the following command.
 ```bash
 $ docker-compose down -v && docker-compose up
 ```
-PHP7.4, Laravel6.0系へ変更
+PHP7.4, Laravel6系へ変更
